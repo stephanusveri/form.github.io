@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="survey.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <h2>Survey Form Glassmorph</h2>
+      <div class="row100">
+        <div class="col">
+          <div class="inputBox">
+    
+                <div class="web-label">
+                  <label>Nama </label>
+                </div>
+                <div class="input-web">
+                  <input id="name" type="name" placeholder="Nama">
+                </div>
+              
+        </div>
+        <div class="col">
+          <div class="inputBox">
+
+                <div class="web-label">
+                  <label>Umur </label>
+                </div>
+                <div class="input-web">
+                  <input id="name" type="name" placeholder="Umur">
+                </div>
+         
+        </div>
+        <div class="col">
+          <div class="inputBox">
+
+                <div class="web-label">
+                  <label>Email </label>
+                </div>
+                <div class="input-web">
+                  <input id="name" type="name" placeholder="Email">
+                </div>
+
+          
+        </div>
+
+        <div class="col">
+          <div class="inputBox">
+              <div class="web-label">
+              <label>Apa status anda sekarang</label>
+              </div>
+              <div class="input-web">
+                <select id="dropdown">
+                  <option value="PLJ">Pelajar</option>
+                  <option value="BKR">Bekerja</option>
+                  <option value="MHS">Mahasiswa</option>
+                  <option value="PRT">Pekerja Rumah Tangga</option>
+                  <option value="FRL">Freelance</option>                 
+                </select>     
+              </div>  
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="inputBox">
+              <div class="web-label">
+              <label>Bagaimana Tampilan Web ini Menurut Anda</label>
+              </div>
+              <div class="input-web">
+                <select id="dropdown">
+                  <option value="SGB">Sangat Bagus</option>
+                  <option value="RPS">Responsive(Cepat untuk loading</option>
+                  <option value="MRK">Menarik</option>
+                  <option value="SBR">Sangat Berwarna(Colorful) </option>
+                  <option value="KRG">Kurang Bagus/Menarik/Berwarna</option>      
+                </select>     
+              </div>  
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="inputBox">
+            <div class="web-label">
+              <p>Apa yang kurang dari website ini menurut anda</p>
+            </div>
+            <div class="input-web">
+               <div>
+                <label class="radio">
+                  <input type="radio"  name="saran" value="1">Warna terlalu cerah</input>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio" name="saran" value="2">Warna terlalu gelap</input>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio" name="saran" value="3">Proses loading terlalu lama</input>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio" name="saran" value="4">Informasi yang dimuat kurang informatif</input>
+                </label>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="inputBox">
+            <p>Apa kelebihan website ini menurut anda</p>
+              <label class="radio">
+               <input type="checkbox" name="A" value="1">Gambar yang dimuat bagus dan informatif</input>
+              </label>
+              <br>
+              <label class="radio">
+               <input type="checkbox" name="A" value="1">Desain website yang menarik dan rapi</input>
+              <label class="radio">
+              <br>
+              <label class="radio">
+               <input type="checkbox" name="A" value="1">Informasi yang dimuat jelas dan informatif</input>
+              </label> 
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row100">
+        <div class="col">
+          <div class="inputBox textarea">
+            <p>Jika ada kritik dan saran lain anda bisa komentar di bawah ini</p>
+            <textarea name="" id="textarea" required placeholder="Masukkan komentar anda disini....."></textarea>
+            <span class="line"></span>
+          </div>
+        </div>
+      </div>
+
+      
+         <button type="submit" id="submit" class="btn">Submit</button>
+      
+ 
+
+    </div>
+  </section>
+  
+</body>
+</html>
